@@ -1,4 +1,7 @@
 import mysql.connector
+from ..flaskmysql import faroeseProps as fp
+
+
 
 def openDB():
     connection = mysql.connector.connect(host='localhost',user='root', 

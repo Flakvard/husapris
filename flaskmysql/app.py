@@ -2,19 +2,14 @@ from flask import Flask,render_template
 import db_connect as db
 import mysql.connector
 
-# connection = mysql.connector.connect(host='localhost',user='root', 
-                                    # password='root', database='fo_properties',)
-# print("DB connection successful")
-# cursor = connection.cursor()
-
 app = Flask(__name__)
 
 @app.route("/")
 def index():
-    return "Welcome to Faroese Properties"
+    return render_template("index.html")
 
-@app.route("/python")
-def python():
+@app.route("/properties")
+def properties():
     connection = db.openDB()
     cursor = db.openCursor(connection)
 
@@ -22,11 +17,11 @@ def python():
     cursor.execute(select_query)
     records = cursor.fetchall()
     value = cursor.rowcount
-    print("Total number of properties are: ", cursor.rowcount)
+    # print("Total number of properties are: ", cursor.rowcount)
 
     cursor.close()
     connection.close()
-    return render_template("registration.html",data=records,name="Python")
+    return render_template("property_list.html",data=records,name="properties", recordCount=value)
 
 @app.route("/registration")
 def reg():

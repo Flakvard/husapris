@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=1080, initial-scale=1.0">
+    <title>Faroese property market</title>
+    <style>
+        h1{
+            color: saddlebrown;
+            text-align: center;
+        }
+        button{
+            background-color: black;
+            width: 250px;
+            color: yellow;
+            font-size: 20px;
+            padding: 15px;
+            text-align: center;
+            margin: 10px;
+            margin-left: auto;
+            margin-right: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome</h1>
+    <button type="button" onclick="window.location.href='{{url_for('properties')}}';">
+        Properties list
+    </button>
+    
+</body>
+</html>
