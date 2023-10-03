@@ -1,3 +1,5 @@
+import csv
+
 class FaroesProperties:
     def __init__(self, website=None,
                  address=None, houseNum=None,
@@ -80,7 +82,7 @@ class FaroesProperties:
     def writeToCSV(self):
         print("test")
 
-    def readInCSV(self, pathToCSV):
+    def readInCSV(pathToCSV):
         # properties = []
         # FaroesProperties(websites, address, houseNum, city, postNum,
         #                     priceEntries,latestPriceOfferEntries, priceOfferValidDateEntry,yearBuiltEntry,insideM2Entry,
@@ -95,7 +97,7 @@ class FaroesProperties:
         csv_file_path = pathToCSV #'your_csv_file.csv'
 
         # Open and read the CSV file
-        with open(csv_file_path, mode='r', newline='') as file:
+        with open(csv_file_path, mode='r', newline='',encoding='utf-8') as file:
             reader = csv.reader(file)
             
             # Skip the header row if present
@@ -105,8 +107,8 @@ class FaroesProperties:
             for row in reader:
                 # Create a Property object and append it to the property_list
                 property_obj = FaroesProperties(website=row[0], address=row[1], 
-                                                houseNum=row[2], city=row[3],
-                                                postNum=row[4], price=row[5],
+                                                houseNum=row[2], city=row[4],
+                                                postNum=row[3], price=row[5],
                                                 LatestPrice=row[6],
                                                 validDate=row[7],
                                                 date=row[8],

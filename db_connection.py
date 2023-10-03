@@ -3,42 +3,41 @@ import mysql.connector
 import faroeseProps as fp
 
 
-# properties = fp.readInCSV(".\2023-10-02_export_data.csv")
-# for prop in properties:
-#     print(prop.display())
+def insertPropsToDB(property_list):
+    try:
+        connection = openDB()
+        # Create a cursor object to interact with the database
+        cursor = connection.cursor()
 
-property_list = []
+        # Define the input parameters for the stored procedure
+        for prop in property_list:
+            # prop.prices, 
+            # prop.LatestPrices,
+            # prop.validDates,
+            # prop.imgs 
+            print(prop.websites+'_'+prop.cities+'_'+prop.postNums+'_'+prop.addresses+'_'+prop.houseNums)
+            website = prop.websites 
+            yearbuilt = prop.dates
+            insideM2 = prop.buildingSizes
+            outsideM2 = prop.landSizes
+            rooms = prop.rooms
+            floorLevels = prop.floors
+            address_text = prop.addresses
+            houseNum = prop.houseNums
+            city_text = prop.cities
+            postNum = prop.postNums
 
-    # Replace 'your_csv_file.csv' with the actual file path of your CSV file
-csv_file_path = "2023-10-02_export_data.csv" #'your_csv_file.csv'
+            # Call the stored procedure with the input parameters
+            cursor.callproc('InsertPropertyWithAddressAndCity', (website, yearbuilt, insideM2, outsideM2, rooms, floorLevels, address_text, houseNum, city_text, postNum))
 
-# Open and read the CSV file
-with open(csv_file_path, mode='r', newline='', encoding='iso-8859-1') as file:
-    reader = csv.reader(file)
-    
-    # Skip the header row if present
-    next(reader, None)
+            # Commit the changes to the database
+            connection.commit()
 
-    # Iterate through each row in the CSV file
-    for row in reader:
-        # Create a Property object and append it to the property_list
-        property_obj = fp.FaroesProperties(website=row[0], address=row[1], 
-                                        houseNum=row[2], city=row[3],
-                                        postNum=row[4], price=row[5],
-                                        LatestPrice=row[6],
-                                        validDate=row[7],
-                                        date=row[8],
-                                        buildingSize=row[9],
-                                        landSize=row[10],
-                                        room=row[11],
-                                        floor=row[12],
-                                        img=row[13]
-                                        )
-        property_list.append(property_obj)
-
-for prop in property_list:
-    print(prop.display())
-
+        # Close the cursor and the database connection
+        cursor.close()
+        connection.close()
+    finally:
+        print("insertation done")
 
 
 
@@ -86,3 +85,9 @@ def test():
         connection.close()
     finally:
         print("DB connection closed")
+
+
+
+property_list = []
+property_list = fp.FaroesProperties.readInCSV("2023-10-03_export_data.csv")
+insertPropsToDB(property_list)
