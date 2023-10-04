@@ -11,11 +11,7 @@ def insertPropsToDB(property_list):
 
         # Define the input parameters for the stored procedure
         for prop in property_list:
-            # prop.prices, 
-            # prop.LatestPrices,
-            # prop.validDates,
-            # prop.imgs 
-            print(prop.websites+'_'+prop.cities+'_'+prop.postNums+'_'+prop.addresses+'_'+prop.houseNums)
+            print(prop.websites+'_'+prop.cities+'_'+prop.postNums+'_'+prop.addresses+'_'+prop.houseNums+'_'+prop.prices+'_'+prop.LatestPrices+'_'+prop.validDates)
             website = prop.websites 
             yearbuilt = prop.dates
             insideM2 = prop.buildingSizes
@@ -26,9 +22,17 @@ def insertPropsToDB(property_list):
             houseNum = prop.houseNums
             city_text = prop.cities
             postNum = prop.postNums
+            price = prop.prices, 
+            latestPrice = prop.LatestPrices,
+            validDate =  prop.validDates,
+            # prop.imgs 
 
             # Call the stored procedure with the input parameters
-            cursor.callproc('InsertPropertyWithAddressAndCity', (website, yearbuilt, insideM2, outsideM2, rooms, floorLevels, address_text, houseNum, city_text, postNum))
+            cursor.callproc('InsertPropertyWithAddressAndCity', (website, yearbuilt, insideM2, 
+                                                                 outsideM2, rooms, floorLevels, 
+                                                                 address_text, houseNum, city_text, 
+                                                                 postNum
+                                                                 ))
 
             # Commit the changes to the database
             connection.commit()
@@ -89,5 +93,5 @@ def test():
 
 
 property_list = []
-property_list = fp.FaroesProperties.readInCSV("2023-10-03_export_data.csv")
+property_list = fp.FaroesProperties.readInCSV("2023-10-04_export_data.csv")
 insertPropsToDB(property_list)
