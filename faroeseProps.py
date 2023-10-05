@@ -1,7 +1,7 @@
 import csv
 import requests
-from io import BytesIO
-from PIL import Image
+# from io import BytesIO
+# from PIL import Image
 
 
 class FaroesProperties:

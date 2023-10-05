@@ -33,30 +33,30 @@ def insertPropsToDB(property_list):
                                                                  postNum, price, latestPrice,validDate 
                                                                  ))
             # Commit the changes to the database
-            # connection.commit()
+            connection.commit()
             # Fetch the propertyID returned by the stored procedure
             #result = cursor.stored_results() # Get the propertyID returned by the stored procedure 
-            results = [r.fetchall() for r in cursor.stored_results()]
-            print("Result of first stored procedure:", results)
-            # Fetch the propertyID returned by the stored procedure (from the second set of results)
-            propertyID_set = results[1]  # This will be a list of tuples
-            if propertyID_set and len(propertyID_set) > 0:
-                propertyID = propertyID_set[0][0]  # Extract the value from the first tuple
-                print("propertyID:", propertyID)
-            else:
-                print("Property insertion failed")
+            # results = [r.fetchall() for r in cursor.stored_results()]
+            # print("Result of first stored procedure:", results)
+            # # Fetch the propertyID returned by the stored procedure (from the second set of results)
+            # propertyID_set = results[1]  # This will be a list of tuples
+            # if propertyID_set and len(propertyID_set) > 0:
+            #     propertyID = propertyID_set[0][0]  # Extract the value from the first tuple
+            #     print("propertyID:", propertyID)
+            # else:
+            #     print("Property insertion failed")
 
             # cursor.nextset()  # Move to the next result set (required when using CALL)
 
             # After calling the stored procedure, insert the image data separately
-            if propertyID is not None :
-               img = fp.FaroesProperties.getImgs(prop)
-               img_bytes = bytes(img)
-               cursor.callproc('InsertOnlyImg', (propertyID , img_bytes))
-               # Commit the changes to the database
-               connection.commit()
-            else:
-                print("Property insertion failed")
+            # if propertyID is not None :
+            #    img = fp.FaroesProperties.getImgs(prop)
+            #    img_bytes = bytes(img)
+            #    cursor.callproc('InsertOnlyImg', (propertyID , img_bytes))
+            #    # Commit the changes to the database
+            #    connection.commit()
+            # else:
+            #     print("Property insertion failed")
 
     finally:
         # Close the cursor and the database connection
@@ -114,5 +114,5 @@ def test():
 
 
 property_list = []
-property_list = fp.FaroesProperties.readInCSV("2023-10-04_export_data.csv")
+property_list = fp.FaroesProperties.readInCSV("2023-10-05_export_data.csv")
 insertPropsToDB(property_list)
