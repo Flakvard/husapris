@@ -1,4 +1,8 @@
 import csv
+import requests
+from io import BytesIO
+from PIL import Image
+
 
 class FaroesProperties:
     def __init__(self, website=None,
@@ -120,10 +124,42 @@ class FaroesProperties:
                                                 )
                 property_list.append(property_obj)
         return property_list 
-
-        
-        
         
     def getImgUrl(self):
         if self.imgs != "None":
             return str(self.imgs)
+
+    def getName(self):
+        if self.imgs != "None":
+            return str(self.cities+'_'+self.addresses+'_'+self.houseNums)
+
+    def getImgs(self):
+        # URL of the image
+        image_url = self.getImgUrl()
+        img_name = self.getName()
+        if img_name == None:
+            img_name = "unknown"
+
+        # Send an HTTP GET request to the image URL
+        response = requests.get(image_url)
+        
+        if response.status_code == 200:
+            # Read the image content
+            image_data = response.content
+            
+            # Determine the file format (PNG or JPEG) based on the 'Content-Type' header
+            content_type = response.headers.get('Content-Type', '').lower()
+            if 'image/jpeg' in content_type:
+                file_extension = 'jpeg'
+            elif 'image/png' in content_type:
+                file_extension = 'png'
+            else:
+                print("Unknown image format")
+                file_extension = None
+            
+            if file_extension:
+                image = Image.open(BytesIO(image_data))
+                return image 
+        else:
+            print(image_url," ",img_name," ","Failed to download image. Status code:", response.status_code)  
+        
