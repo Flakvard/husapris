@@ -1,0 +1,97 @@
+Website,addressClass,priceClass,dateClass,buildingSizeClass,landSizeClass,roomsClass,floorsClass
+Betri,Heimaratún 3  100 Tórshavn,Kr. 3.595.000,Bygd 1959,Stødd á bygningi 173 m2,Grund stødd 137 m2,,Hæddir 4
+Betri,Gerðisbreyt 3  176 Velbastaður,Kr. 2.995.000,Bygd 1985,Stødd á bygningi 154 m2,Grund stødd 602 m2,Rúm 4,Hæddir 2
+Betri,Grásteinsgøta 2B  100 Tórshavn,Kr. 4.700.000,Bygd 2023,Stødd á bygningi 174 m2,Grund stødd 305 m2,Rúm 5,Hæddir 2
+Betri,Kráarvegur 20  530 Fuglafjørður,Kr. 2.095.000,Bygd 1990,Stødd á bygningi 264 m2,Grund stødd 500 m2,Rúm 5,Hæddir 2
+Betri,Liðabrekkan 15  380 Sørvágur,Kr. 975.000,Bygd 1918,Stødd á bygningi 772 m2,Grund stødd 173 m2,Rúm 3,Hæddir 3
+Betri,"Steigarbrekka 14, Sandavágur  360 Sandavágur",Kr. 1.500.000,Bygd 1926,Stødd á bygningi 104 m2,Grund stødd 179 m2,,Hæddir 3
+Betri,Garðavegur 12  240 Skopun,Kr. 1.350.000,Bygd 1924,Stødd á bygningi 156 m2,Grund stødd 137 m2,Rúm 4,Hæddir 3
+Betri,Stoffalág 59  100 Tórshavn,Kr. 1.795.000,,,Grund stødd 424 m2,,
+Betri,Garðavegur 70  700 Klaksvík,Kr. 695.000,Bygd 1940,Stødd á bygningi 150 m2,Grund stødd 150 m2,Rúm 5,Hæddir 3
+Betri,Bøgøta 30  900 Vágur,Kr. 1.690.000,Bygd 1960'unum,Stødd á bygningi 134 m2,Grund stødd 382 m2,,Hæddir 2
+Betri,"Karlamagnusarbreyt 44, 1.2  188 Hoyvík",Kr. 2.995.000,Bygd 2021,Stødd á bygningi 83 m2,,Rúm 2,Hæddir 1
+Betri,Ærgisbrekka 1 & Hjallavegur 16  600 Saltangará,Kr. 4.700.000,Bygd 2003,Stødd á bygningi 360 m2,Grund stødd 616 m2,Rúm 5,Hæddir 3
+Betri,Niels Winthersgøta 9  100 Tórshavn,Kr. 10.000.000,Bygd 1947,Stødd á bygningi 555 m2,Grund stødd 185 m2,,Hæddir 3
+Betri,Neyst Matr nr 141  400 Oyrarbakki,Kr. 495.000,Bygd 1989,,Grund stødd 48 m2,,
+Betri,Matr nr 13d Miðvágur - Uttangarðslutur í Heimaraleiti á 10 gyllin  370 Miðvágur,Kr. 925.000,,,Grund stødd 5166 m2,,
+Betri,Grundstykki  176 Velbastaður,Kr. 745.000,,,Grund stødd 510 m2,,
+Betri,Neyst - matr. 283e  416 Signabøur,Kr. 600.000,,Stødd á bygningi 63 m2,Grund stødd 93 m2,,Hæddir 2
+Skyn,Garðavegur 50,700.000 ,355 m2 ,−                		,355 m2 ,355 m2 ,355 m2 
+Skyn,"Íbúð 1, Í Pálsliða 2 og 4",2.100.000 ,−                		,"81 m2
+",−                		,−                		,−                		
+Skyn,Lýðarsvegur 48B,2.000.000 ,341 m2 ,"150 m2
+",341 m2 ,341 m2 ,341 m2 
+Skyn,"Íbúð 2, Í Pálsliða 2 og 4",2.100.000 ,−                		,"81 m2
+",−                		,−                		,−                		
+Skyn,"Íbúð 3, Í Pálsliða 2 og 4",2.100.000 ,−                		,"81 m2
+",−                		,−                		,−                		
+Skyn,"Íbúð 4, Í Pálsliða 2 og 4",2.100.000 ,−                		,"81 m2
+",−                		,−                		,−                		
+Skyn,Undir Ryggi 12,3.995.000 ,40 m2 ,"59 m2
+",40 m2 ,40 m2 ,40 m2 
+Skyn,Liljugøta 7,4.995.000 ,510 m2 ,"198 m2
+",510 m2 ,510 m2 ,510 m2 
+Skyn,Leirvíksvegur 9,1.585.000 ,926 m2 ,"211 m2
+",926 m2 ,926 m2 ,926 m2 
+Skyn,Landavegur 61,3.675.000 ,815 m2 ,"172 m2
+",815 m2 ,815 m2 ,815 m2 
+Skyn,í Homrum 25,1.395.000 ,450 m2 ,"193 m2
+",450 m2 ,450 m2 ,450 m2 
+Skyn,Niels Finsens gøta 23A,7.495.000 ,179 m2 ,"332 m2
+",179 m2 ,179 m2 ,179 m2 
+Skyn,við Krossá 6,330.000 ,−                		,−                		,−                		,−                		,−                		
+Skyn,Niðari Vegur 78,3.600.000 ,13693 m2 ,"132 m2
+",13693 m2 ,13693 m2 ,13693 m2 
+Skyn,matr.nr. 58a Oyri,450.000 ,4792 m2 ,−                		,4792 m2 ,4792 m2 ,4792 m2 
+Skyn,Handan Á 4,2.900.000 ,105 m2 ,"125 m2
+",105 m2 ,105 m2 ,105 m2 
+Skyn,Hagabrekka 28,1.995.000 ,500 m2 ,"272 m2
+",500 m2 ,500 m2 ,500 m2 
+Skyn,Geilin 33,1.295.000 ,1667 m2 ,"237 m2
+",1667 m2 ,1667 m2 ,1667 m2 
+Skyn,matr.nr. 208p,500.000 ,21129 m2 ,−                		,21129 m2 ,21129 m2 ,21129 m2 
+Skyn,Hjaltarók 4,1.850.000 ,602 m2 ,−                		,602 m2 ,602 m2 ,602 m2 
+Skyn,Ovastuhjallar 9,375.000 ,1508 m2 ,−                		,1508 m2 ,1508 m2 ,1508 m2 
+Skyn,matr.nr. 1350a,5.400.000 ,7583 m2 ,−                		,7583 m2 ,7583 m2 ,7583 m2 
+Skyn,Salvarávegur 9,1.800.000 ,622 m2 ,−                		,622 m2 ,622 m2 ,622 m2 
+Skyn,matr.nr. 31,300.000 ,5776 m2 ,−                		,5776 m2 ,5776 m2 ,5776 m2 
+Skyn,Klaksvíksvegur 59,950.000 ,757 m2 ,−                		,757 m2 ,757 m2 ,757 m2 
+Skyn,matr. 144i Klaksvík,400.000 ,569 m2 ,−                		,569 m2 ,569 m2 ,569 m2 
+Skyn,matr.nr. 159d,600.000 ,709 m2 ,−                		,709 m2 ,709 m2 ,709 m2 
+Skyn,matr.nr. 21f,390.000 ,912 m2 ,−                		,912 m2 ,912 m2 ,912 m2 
+Skyn,matr.nr. 240a og 240g,3.595.000 ,6213 m2 ,−                		,6213 m2 ,6213 m2 ,6213 m2 
+Skyn,Traðagøta 37,400.000 ,498 m2 ,−                		,498 m2 ,498 m2 ,498 m2 
+Skyn,Ólavsvegur 6,350.000 ,688 m2 ,−                		,688 m2 ,688 m2 ,688 m2 
+Skyn,Jørð til grundøkir omanfyri Múlaklett,3.000.000 ,27000 m2 ,−                		,27000 m2 ,27000 m2 ,27000 m2 
+Skyn: Selt,Gripsvegur 33,3.995.000 ,374 m2 ,"188 m2
+",374 m2 ,374 m2 ,374 m2 
+Skyn: Selt,Tróndargøta 55,2.500.000 ,205 m2 ,"217 m2
+",205 m2 ,205 m2 ,205 m2 
+Skyn: Selt,Bíarvegur 107,795.000 ,323 m2 ,"120 m2
+",323 m2 ,323 m2 ,323 m2 
+Skyn: Selt,Sílagøta íbúð 0.2,3.300.000 ,−                		,"72 m2
+",−                		,−                		,−                		
+Skyn: Selt,matr.nr. 12a,650.000 ,92 m2 ,"63 m2
+",92 m2 ,92 m2 ,92 m2 
+Skyn: Selt,Torkilsgøta 7,3.895.000 ,238 m2 ,"169 m2
+",238 m2 ,238 m2 ,238 m2 
+Skyn: Selt,Sjógøta 178,1.995.000 ,1829 m2 ,"225 m2
+",1829 m2 ,1829 m2 ,1829 m2 
+Skyn: Selt,Kongagøta 3,3.200.000 ,152 m2 ,"160 m2
+",152 m2 ,152 m2 ,152 m2 
+Skyn: Selt,Heiðastubbi 8,4.600.000 ,504 m2 ,"262 m2
+",504 m2 ,504 m2 ,504 m2 
+Skyn: Selt,Heiðastubbi 5,1.600.000 ,504 m2 ,−                		,504 m2 ,504 m2 ,504 m2 
+Skyn: Nyggj bod,Sílagøta íbúð 0.3,3.250.000 ,−                		,"72 m2
+",−                		,−                		,−                		
+Skyn: Nyggj ogn,Meinhartstrøð 9,2.000.000 ,617 m2 ,−                		,617 m2 ,617 m2 ,617 m2 
+Skyn: Nyggj ogn,Øksnagerði 8,3.395.000 ,302 m2 ,"147 m2
+",302 m2 ,302 m2 ,302 m2 
+Skyn: Nyggj ogn,Steigartún 13,1.495.000 ,199 m2 ,"94 m2
+",199 m2 ,199 m2 ,199 m2 
+Skyn: Nyggj ogn,Heiðagøta 7A,3.500.000 ,781 m2 ,"233 m2
+",781 m2 ,781 m2 ,781 m2 
+Skyn: Nytt bod,Ryskigøta 34,1.595.000 ,488 m2 ,−                		,488 m2 ,488 m2 ,488 m2 
+Skyn: Nytt bod,"Vesturgøta 22, 1.2",1.760.000 ,−                		,"42 m2
+",−                		,−                		,−                		
+Skyn: Fasturprisur,"Ryskigøta 41, 100 Tórshavn",1.700.000 ,403 m2 ,−                		,403 m2 ,403 m2 ,403 m2 
