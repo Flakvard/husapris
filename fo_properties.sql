@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Oct 05, 2023 at 11:00 PM
+-- Generation Time: Oct 08, 2023 at 12:34 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -401,7 +401,8 @@ INSERT INTO `address` (`idaddress`, `addressName`, `cities_idCity`) VALUES
 (1800, 'Ryskigøta ', 485),
 (1801, 'Vesturgøta ', 485),
 (1802, 'Traðarvegur ', 421),
-(1803, 'Flatnavegur ', 441);
+(1803, 'Flatnavegur ', 441),
+(1804, 'Neyst - matr. ', 461);
 
 -- --------------------------------------------------------
 
@@ -629,7 +630,9 @@ INSERT INTO `house_num` (`idhouse_num`, `house_num`, `address_idaddress`) VALUES
 (1941, '22', 1801),
 (1942, '41', 1800),
 (1943, '5A', 1802),
-(1944, '73B', 1803);
+(1944, '73B', 1803),
+(1945, '283e', 1804),
+(1946, '50', 1751);
 
 -- --------------------------------------------------------
 
@@ -718,7 +721,9 @@ INSERT INTO `img_to_properties` (`idimg_to_properties`, `img_name`, `properties_
 (102093, 'Tórshavn_Vesturgøta _22_1989_Skyn: Nytt bod', 2133, NULL),
 (102094, 'Tórshavn_Ryskigøta _41_0_Skyn: Fasturprisur', 2134, NULL),
 (102095, 'Kollafjørður_Traðarvegur _5A_0_Betri', 2135, NULL),
-(102096, 'Norðoyri_Flatnavegur _73B_2021_Betri', 2136, NULL);
+(102096, 'Norðoyri_Flatnavegur _73B_2021_Betri', 2136, NULL),
+(102097, 'Signabøur_Neyst - matr. _283e_0_Betri', 2137, NULL),
+(102098, 'Klaksvík_Garðavegur _50_0_Skyn', 2138, NULL);
 
 -- --------------------------------------------------------
 
@@ -745,7 +750,10 @@ INSERT INTO `price_bids` (`idpriceBids`, `priceBid`, `priceBidDueDate`, `propert
 (30, '3200000.00', '0000-00-00 00:00:00', 2093, '2023-10-05'),
 (31, '250000.00', '0000-00-00 00:00:00', 2104, '2023-10-05'),
 (32, '300000.00', '0000-00-00 00:00:00', 2111, '2023-10-05'),
-(33, '1800000.00', '2023-10-09 10:00:00', 2073, '2023-10-05');
+(33, '1800000.00', '2023-10-09 10:00:00', 2073, '2023-10-05'),
+(34, '1200000.00', '2023-09-11 11:00:00', 2068, '2023-10-05'),
+(35, '3400000.00', '2023-10-03 10:00:00', 2116, '2023-10-05'),
+(36, '650000.00', '0000-00-00 00:00:00', 2138, '2023-10-08');
 
 -- --------------------------------------------------------
 
@@ -768,7 +776,7 @@ CREATE TABLE `price_of_properties` (
 
 INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `latestBidPrice`, `soldPrice`, `properties_idproperties`, `lastUpdate`) VALUES
 (1179, '2995000.00', '3020000.00', '0.00', 2067, '2023-10-05 22:24:36'),
-(1180, '1395000.00', '0.00', '0.00', 2068, '2023-10-05 22:24:22'),
+(1180, '1395000.00', '1200000.00', '0.00', 2068, '2023-10-05 23:09:05'),
 (1181, '3595000.00', '0.00', '0.00', 2069, '2023-10-05 22:24:22'),
 (1182, '1545000.00', '0.00', '0.00', 2070, '2023-10-05 22:24:22'),
 (1183, '4700000.00', '0.00', '0.00', 2071, '2023-10-05 22:24:22'),
@@ -816,7 +824,7 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1225, '400000.00', '0.00', '0.00', 2113, '2023-10-05 22:24:22'),
 (1226, '350000.00', '0.00', '0.00', 2114, '2023-10-05 22:24:22'),
 (1227, '3000000.00', '0.00', '0.00', 2115, '2023-10-05 22:24:22'),
-(1228, '3250000.00', '0.00', '0.00', 2116, '2023-10-05 22:24:22'),
+(1228, '3250000.00', '3400000.00', '0.00', 2116, '2023-10-05 23:09:05'),
 (1229, '3995000.00', '0.00', '0.00', 2117, '2023-10-05 22:24:22'),
 (1230, '2500000.00', '0.00', '0.00', 2118, '2023-10-05 22:24:22'),
 (1231, '795000.00', '0.00', '0.00', 2119, '2023-10-05 22:24:22'),
@@ -836,7 +844,9 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1245, '1760000.00', '0.00', '0.00', 2133, '2023-10-05 22:24:23'),
 (1246, '1700000.00', '0.00', '0.00', 2134, '2023-10-05 22:24:23'),
 (1247, '595000.00', '0.00', '0.00', 2135, '2023-10-05 22:24:42'),
-(1248, '2250000.00', '0.00', '0.00', 2136, '2023-10-05 22:24:42');
+(1248, '2250000.00', '0.00', '0.00', 2136, '2023-10-05 22:24:42'),
+(1249, '600000.00', '0.00', '0.00', 2137, '2023-10-05 23:09:05'),
+(1250, '700000.00', '650000.00', '0.00', 2138, '2023-10-08 09:14:13');
 
 -- --------------------------------------------------------
 
@@ -931,7 +941,9 @@ INSERT INTO `properties` (`idproperties`, `website`, `yearbuild`, `insideM2`, `o
 (2133, 'Skyn: Nytt bod', 1989, 42, 0, 1, 1, 1801, 1941, '2023-10-05'),
 (2134, 'Skyn: Fasturprisur', 0, 0, 403, 0, 0, 1800, 1942, '2023-10-05'),
 (2135, 'Betri', 0, 0, 597, 0, 0, 1802, 1943, '2023-10-05'),
-(2136, 'Betri', 2021, 92, 0, 2, 1, 1803, 1944, '2023-10-05');
+(2136, 'Betri', 2021, 92, 0, 2, 1, 1803, 1944, '2023-10-05'),
+(2137, 'Betri', 0, 63, 93, 0, 2, 1804, 1945, '2023-10-05'),
+(2138, 'Skyn', 0, 0, 355, 0, 0, 1751, 1946, '2023-10-05');
 
 -- --------------------------------------------------------
 
@@ -994,6 +1006,7 @@ ALTER TABLE `house_num`
 --
 ALTER TABLE `img_to_properties`
   ADD PRIMARY KEY (`idimg_to_properties`),
+  ADD UNIQUE KEY `properties_idproperties_UNIQUE` (`properties_idproperties`),
   ADD KEY `fk_properties_idproperties_idx` (`properties_idproperties`);
 
 --
@@ -1001,14 +1014,14 @@ ALTER TABLE `img_to_properties`
 --
 ALTER TABLE `price_bids`
   ADD PRIMARY KEY (`idpriceBids`,`properties_idproperties`),
-  ADD KEY `fk_priceBids_properties1` (`properties_idproperties`);
+  ADD KEY `properties_idproperties_idx` (`properties_idproperties`);
 
 --
 -- Indexes for table `price_of_properties`
 --
 ALTER TABLE `price_of_properties`
   ADD PRIMARY KEY (`idpriceOfProperties`,`properties_idproperties`),
-  ADD KEY `fk_price_of_properties_properties1` (`properties_idproperties`);
+  ADD UNIQUE KEY `properties_idproperties_UNIQUE` (`properties_idproperties`);
 
 --
 -- Indexes for table `properties`
@@ -1016,10 +1029,7 @@ ALTER TABLE `price_of_properties`
 ALTER TABLE `properties`
   ADD PRIMARY KEY (`idproperties`),
   ADD KEY `fk_properties_address1` (`address_idaddress`),
-  ADD KEY `fk_house_num_idhouse_num_idx` (`houseNum_idhouse_num`),
-  ADD KEY `fk_house_num_idhouse_num_idex` (`houseNum_idhouse_num`),
-  ADD KEY `fk_housenum_idhouseNum_idex` (`houseNum_idhouse_num`),
-  ADD KEY `fk_housenum_idhouseNum_index` (`houseNum_idhouse_num`);
+  ADD KEY `fk_house_num_idhouse_num_idx` (`houseNum_idhouse_num`);
 
 --
 -- AUTO_INCREMENT for dumped tables
@@ -1029,7 +1039,7 @@ ALTER TABLE `properties`
 -- AUTO_INCREMENT for table `address`
 --
 ALTER TABLE `address`
-  MODIFY `idaddress` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1804;
+  MODIFY `idaddress` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1805;
 
 --
 -- AUTO_INCREMENT for table `cities`
@@ -1041,31 +1051,31 @@ ALTER TABLE `cities`
 -- AUTO_INCREMENT for table `house_num`
 --
 ALTER TABLE `house_num`
-  MODIFY `idhouse_num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1945;
+  MODIFY `idhouse_num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1947;
 
 --
 -- AUTO_INCREMENT for table `img_to_properties`
 --
 ALTER TABLE `img_to_properties`
-  MODIFY `idimg_to_properties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102097;
+  MODIFY `idimg_to_properties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102099;
 
 --
 -- AUTO_INCREMENT for table `price_bids`
 --
 ALTER TABLE `price_bids`
-  MODIFY `idpriceBids` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=34;
+  MODIFY `idpriceBids` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `price_of_properties`
 --
 ALTER TABLE `price_of_properties`
-  MODIFY `idpriceOfProperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1249;
+  MODIFY `idpriceOfProperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1251;
 
 --
 -- AUTO_INCREMENT for table `properties`
 --
 ALTER TABLE `properties`
-  MODIFY `idproperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2137;
+  MODIFY `idproperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2139;
 
 --
 -- Constraints for dumped tables
@@ -1096,7 +1106,7 @@ ALTER TABLE `price_bids`
   ADD CONSTRAINT `fk_priceBids_properties1` FOREIGN KEY (`properties_idproperties`) REFERENCES `properties` (`idproperties`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `price_of_properties`
+-- Constraints for table `price_of_properTIES`
 --
 ALTER TABLE `price_of_properties`
   ADD CONSTRAINT `fk_price_of_properties_properties1` FOREIGN KEY (`properties_idproperties`) REFERENCES `properties` (`idproperties`) ON DELETE NO ACTION ON UPDATE NO ACTION;
