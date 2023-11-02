@@ -6,11 +6,8 @@ from datetime import datetime
 import os
 import faroeseProps as fp
 
-from PIL import Image
-from io import BytesIO
-
 import time
-# from selenium import webdriver
+from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.by import By
 from selenium.webdriver.chrome.options import Options
@@ -86,7 +83,7 @@ def addressParse(addresses):
             yield address
         if match3:
             houseNum = match3.group(1)
-            yield houseNum     
+            yield houseNum         
 
 def priceParse(prices):
     if prices:
@@ -192,18 +189,27 @@ for property in BetriPropertyWrappers:
             image_url = img_element['src']
             betriimgs.append(image_url)
 
-    prop = fp.FaroesProperties(websites, address, houseNum, city, postNum,
-                            priceEntries,latestPriceOfferEntries, priceOfferValidDateEntry,yearBuiltEntry,insideM2Entry,
-                            outsideM2Entry,roomEntry,floorEntry,image_url)
+    prop = fp.FaroesProperties(website=websites, address=address, 
+                               houseNum=houseNum, city=city, 
+                               postNum=postNum, price=priceEntries,
+                               LatestPrice=latestPriceOfferEntries, 
+                               validDate=priceOfferValidDateEntry,
+                               date=yearBuiltEntry,
+                               buildingSize=insideM2Entry,
+                               landSize=outsideM2Entry,
+                               room=roomEntry,
+                               floor=floorEntry,
+                               img=image_url)
     
     
     properties.append(prop)
 
 
+
 def addressParseSkyn(addresses):
     if addresses:
         pattern1 = r"(\w+[ ]?[^0-9]+[ ]?[^0-9]+)"
-        pattern2 = r"([0-9]+\w?)"
+        pattern2 = r"([0-9]+[\w|\.]?[0-9]?)"
         match1 = re.search(pattern1, addresses)
         match2 = re.search(pattern2, addresses)
         if match1:
@@ -280,9 +286,18 @@ def skynPropertyScraper(SkynPropertyWrappers,slag):
             skynimgs.append("https://www.skyn.fo"+image_url)
         
         
-        prop = fp.FaroesProperties(websites, address, houseNum, city, postNum,
-                            priceEntries,latestPriceOfferEntries, priceOfferValidDateEntry,yearBuiltEntry,insideM2Entry,
-                            outsideM2Entry,roomEntry,floorEntry,imgUrl)
+        
+        prop = fp.FaroesProperties(website=websites, address=address, 
+                                   houseNum=houseNum, city=city, 
+                                   postNum=postNum, price=priceEntries,
+                                   LatestPrice=latestPriceOfferEntries, 
+                                   validDate=priceOfferValidDateEntry,
+                                   date=yearBuiltEntry,
+                                   buildingSize=insideM2Entry,
+                                   landSize=outsideM2Entry,
+                                   room=roomEntry,
+                                   floor=floorEntry,
+                                   img=imgUrl)
 
         properties.append(prop)
 
@@ -294,6 +309,14 @@ skynPropertyScraper(SkynPropertyWrappersNewbid,"Skyn: Nyggj bod")
 skynPropertyScraper(SkynPropertyWrappersNewProp, "Skyn: Nyggj ogn")
 skynPropertyScraper(SkynPropertyWrappersNewPrice, "Skyn: Nytt bod")
 skynPropertyScraper(SkynPropertyWrappersFixedPrice, "Skyn: Fasturprisur")
+
+
+    # folder_path = "images/"
+    # if not os.path.exists(folder_path):
+    #     os.makedirs(folder_path)
+    # image_name = os.path.basename(image_url)
+    # print(image_name)    
+
 
 
 datenow = datetime.today().strftime('%Y-%m-%d')
@@ -335,5 +358,3 @@ for prop in properties:
                ])
     writer.writerow(headers)
     file.close()
-
-
