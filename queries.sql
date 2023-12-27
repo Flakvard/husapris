@@ -32,7 +32,7 @@ SELECT cityName,addressName, insideM2, outsideM2, ROUND(suggestPrice,0) AS sugge
 -- fermetur prísurin fyri Sandavág, Miðvág og Sørvág
 -- CASE WHEN * IS NOT NULL THEN * END - er í grundini neyðugt, um ein bert skal hava fyri hús fermetur prís
 SELECT cityName,ROUND(AVG(suggestPrice), 0) AS avgSuggestPrice,ROUND(AVG(CASE WHEN insideM2 IS NOT NULL THEN suggestPrice / insideM2 END), 0) AS avgM2PriceHouse,ROUND(AVG(CASE WHEN insideM2 IS NULL THEN NULL ELSE suggestPrice / outsideM2 END), 0) AS avgM2PriceLand, COUNT(suggestPrice) AS countOfProperties FROM fo_properties.view_properties WHERE view_properties.cityName IN ("Sandavágur", "Miðvágur", "Sørvágur") AND insideM2 != 0 GROUP BY cityName;
-SELECT cityName,ROUND(AVG(suggestPrice), 0) AS avgSuggestPrice,ROUND(AVG(suggestPrice / insideM2), 0) AS avgM2PriceHouse,ROUND(AVG(suggestPrice / outsideM2), 0) AS avgM2PriceLand, COUNT(suggestPrice) AS countOfProperties FROM fo_properties.view_properties WHERE view_properties.cityName IN ("Sandavágur", "Miðvágur", "Sørvágur") AND insideM2 != 0 GROUP BY cityName;
+SELECT cityName,ROUND(AVG(suggestPrice), 0) AS avgSuggestPrice,ROUND(AVG(suggestPrice / insideM2), 0) AS avgM2PriceHouse,ROUND(AVG(suggestPrice / outsideM2), 0) AS avgM2PriceLand, COUNT(suggestPrice) AS countOfProperties FROM fo_properties.view_properties WHERE view_properties.cityName IN ("Sandavágur", "Miðvágur", "Sørvágur", "Oyndarfjørður") AND insideM2 != 0 GROUP BY cityName;
 
 -- fermetur prísurin fyri allar bygdir
 SELECT cityName,
@@ -45,7 +45,7 @@ WHERE insideM2 != 0
 GROUP BY cityName;
 
 
-SELECT * FROM fo_properties.view_properties WHERE view_properties.cityName = "Saltangará" AND view_properties.insideM2 > 0;
+SELECT * FROM fo_properties.view_properties WHERE view_properties.cityName = "Oyndarfjørður" AND view_properties.insideM2 > 0;
 
 
 

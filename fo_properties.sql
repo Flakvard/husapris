@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 13, 2023 at 11:30 AM
+-- Generation Time: Dec 27, 2023 at 11:01 PM
 -- Server version: 10.4.21-MariaDB
 -- PHP Version: 8.0.12
 
@@ -455,7 +455,14 @@ INSERT INTO `address` (`idaddress`, `addressName`, `cities_idCity`) VALUES
 (1854, 'Heimasandsvegur ', 458),
 (1855, 'Beitisbrekka ', 396),
 (1856, 'Magnus Heinasonar gøta ', 485),
-(1857, 'Leynarvegur ', 429);
+(1857, 'Leynarvegur ', 429),
+(1858, 'á Brekku ', 419),
+(1859, 'Dýrindalsgøta  ', 407),
+(1860, 'undir Heygnum ', 485),
+(1861, 'Mørkin ', 391),
+(1862, 'Niðaragøta ', 407),
+(1863, 'Á Heygnum ', 396),
+(1864, 'Matr. nr. ', 471);
 
 -- --------------------------------------------------------
 
@@ -754,7 +761,14 @@ INSERT INTO `house_num` (`idhouse_num`, `house_num`, `address_idaddress`) VALUES
 (2012, '2', 1855),
 (2013, '15', 1856),
 (2014, '7', 1857),
-(2015, '40', 1834);
+(2015, '40', 1834),
+(2016, '44', 1858),
+(2017, '188', 1859),
+(2018, '16', 1860),
+(2019, '18', 1861),
+(2020, '36', 1862),
+(2021, '2', 1863),
+(2022, '263b', 1864);
 
 -- --------------------------------------------------------
 
@@ -914,7 +928,14 @@ INSERT INTO `img_to_properties` (`idimg_to_properties`, `img_name`, `properties_
 (102164, 'Glyvrar_Beitisbrekka _2_1952_Betri', 2204, NULL),
 (102165, 'Tórshavn_Magnus Heinasonar gøta _15_0_Skyn: N', 2205, NULL),
 (102166, 'Leynar_Leynarvegur _7_1965_Skyn: Nyggj ogn', 2206, NULL),
-(102167, 'Toftir_Høganesvegur _40_1930_Skyn: Nyggj ogn', 2207, NULL);
+(102167, 'Toftir_Høganesvegur _40_1930_Skyn: Nyggj ogn', 2207, NULL),
+(102168, 'Klaksvík_á Brekku _44_1957_Betri', 2208, NULL),
+(102169, 'Hoyvík_Dýrindalsgøta  _188_2014_Betri', 2209, NULL),
+(102170, 'Tórshavn_undir Heygnum _16_1964_Betri', 2210, NULL),
+(102171, 'Fuglafjørður_Mørkin _18_1937_Betri', 2211, NULL),
+(102172, 'Hoyvík_Niðaragøta _36_1998_Betri', 2212, NULL),
+(102173, 'Glyvrar_Á Heygnum _2_1970_Betri', 2213, NULL),
+(102174, 'Strendur_Matr. nr. _263b_0_Skyn: Nyggj ogn', 2214, NULL);
 
 -- --------------------------------------------------------
 
@@ -974,7 +995,21 @@ INSERT INTO `price_bids` (`idpriceBids`, `priceBid`, `priceBidDueDate`, `propert
 (63, '5100000.00', '2023-12-13 15:00:00', 2182, '2023-12-13'),
 (64, '2650000.00', '2023-12-22 12:00:00', 2175, '2023-12-13'),
 (65, '2000000.00', '2023-12-15 12:00:00', 2148, '2023-12-13'),
-(66, '1000000.00', '2023-12-13 15:00:00', 2180, '2023-12-13');
+(66, '1000000.00', '2023-12-13 15:00:00', 2180, '2023-12-13'),
+(67, '3800000.00', '2023-12-18 11:00:00', 2197, '2023-12-15'),
+(68, '5300000.00', '2023-12-15 16:00:00', 2182, '2023-12-15'),
+(69, '2250000.00', '2023-12-15 10:30:00', 2204, '2023-12-15'),
+(70, '1000000.00', '2023-12-18 14:00:00', 2101, '2023-12-15'),
+(71, '2400000.00', '2023-12-27 16:00:00', 2148, '2023-12-21'),
+(72, '2550000.00', '2023-12-27 16:00:00', 2208, '2023-12-21'),
+(73, '4100000.00', '2023-12-22 13:00:00', 2197, '2023-12-21'),
+(74, '950000.00', '2023-12-22 11:00:00', 2203, '2023-12-21'),
+(75, '2850000.00', '2023-12-27 11:30:00', 2189, '2023-12-21'),
+(76, '2600000.00', '2023-12-29 15:30:00', 2208, '2023-12-27'),
+(77, '2900000.00', '2023-12-29 15:30:00', 2175, '2023-12-27'),
+(78, '3650000.00', '2023-12-28 16:00:00', 2212, '2023-12-27'),
+(79, '4250000.00', '2023-12-28 16:00:00', 2197, '2023-12-27'),
+(80, '1800000.00', '2023-12-29 12:00:00', 2200, '2023-12-27');
 
 -- --------------------------------------------------------
 
@@ -1030,7 +1065,7 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1210, '450000.00', '0.00', '0.00', 2098, '2023-10-05 22:24:22'),
 (1211, '2900000.00', '0.00', '0.00', 2099, '2023-10-05 22:24:22'),
 (1212, '1995000.00', '0.00', '0.00', 2100, '2023-10-05 22:24:22'),
-(1213, '1295000.00', '0.00', '0.00', 2101, '2023-10-05 22:24:22'),
+(1213, '1295000.00', '1000000.00', '0.00', 2101, '2023-12-15 11:10:11'),
 (1214, '500000.00', '0.00', '0.00', 2102, '2023-10-05 22:24:22'),
 (1215, '1850000.00', '0.00', '0.00', 2103, '2023-10-05 22:24:22'),
 (1216, '375000.00', '250000.00', '0.00', 2104, '2023-10-05 22:24:36'),
@@ -1077,7 +1112,7 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1257, '1545000.00', '0.00', '0.00', 2145, '2023-10-18 12:06:55'),
 (1258, '3995000.00', '0.00', '0.00', 2146, '2023-10-18 12:06:55'),
 (1259, '750000.00', '0.00', '0.00', 2147, '2023-10-18 12:06:55'),
-(1260, '2750000.00', '2000000.00', '0.00', 2148, '2023-12-13 11:14:02'),
+(1260, '2750000.00', '2400000.00', '0.00', 2148, '2023-12-21 17:01:44'),
 (1261, '1395000.00', '0.00', '0.00', 2149, '2023-10-18 12:06:55'),
 (1262, '2695000.00', '2450000.00', '0.00', 2150, '2023-11-30 19:41:19'),
 (1263, '3395000.00', '0.00', '0.00', 2151, '2023-10-18 12:06:55'),
@@ -1104,21 +1139,21 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1284, '460000.00', '380000.00', '0.00', 2172, '2023-11-30 19:41:19'),
 (1285, '750000.00', '0.00', '0.00', 2173, '2023-11-14 10:58:47'),
 (1286, '998000.00', '0.00', '0.00', 2174, '2023-11-14 10:58:47'),
-(1287, '2895000.00', '2650000.00', '0.00', 2175, '2023-12-13 11:14:02'),
+(1287, '2895000.00', '2900000.00', '0.00', 2175, '2023-12-27 19:13:19'),
 (1288, '2800000.00', '0.00', '0.00', 2176, '2023-11-14 10:58:47'),
 (1289, '300000.00', '180000.00', '0.00', 2177, '2023-11-30 19:41:19'),
 (1290, '3495000.00', '0.00', '0.00', 2178, '2023-11-16 23:55:29'),
 (1291, '3595000.00', '0.00', '0.00', 2179, '2023-11-16 23:55:29'),
 (1292, '1200000.00', '1000000.00', '0.00', 2180, '2023-12-13 11:14:02'),
 (1293, '2795000.00', '2400000.00', '0.00', 2181, '2023-11-30 20:07:58'),
-(1294, '4595000.00', '5100000.00', '0.00', 2182, '2023-12-13 11:14:02'),
+(1294, '4595000.00', '5300000.00', '0.00', 2182, '2023-12-15 11:10:11'),
 (1295, '1650000.00', '0.00', '0.00', 2183, '2023-11-30 19:41:19'),
 (1296, '4495000.00', '0.00', '0.00', 2184, '2023-11-30 19:41:19'),
 (1297, '350000.00', '0.00', '0.00', 2185, '2023-11-30 19:41:19'),
 (1298, '500000.00', '500000.00', '0.00', 2186, '2023-12-07 14:40:41'),
 (1299, '1950000.00', '0.00', '0.00', 2187, '2023-11-30 19:41:19'),
 (1300, '398000.00', '0.00', '0.00', 2188, '2023-11-30 19:41:19'),
-(1301, '2995000.00', '0.00', '0.00', 2189, '2023-11-30 19:41:19'),
+(1301, '2995000.00', '2850000.00', '0.00', 2189, '2023-12-21 17:01:44'),
 (1302, '2000000.00', '0.00', '0.00', 2190, '2023-11-30 22:16:11'),
 (1303, '1750000.00', '0.00', '0.00', 2191, '2023-11-30 22:16:11'),
 (1304, '1095000.00', '0.00', '0.00', 2192, '2023-11-30 22:16:11'),
@@ -1126,17 +1161,24 @@ INSERT INTO `price_of_properties` (`idpriceOfProperties`, `suggestPrice`, `lates
 (1306, '2600000.00', '0.00', '0.00', 2194, '2023-11-30 22:20:57'),
 (1307, '1895000.00', '1950000.00', '0.00', 2195, '2023-12-07 14:42:12'),
 (1308, '3995000.00', '0.00', '0.00', 2196, '2023-12-07 14:40:41'),
-(1309, '4100000.00', '0.00', '0.00', 2197, '2023-12-07 14:40:41'),
+(1309, '4100000.00', '4250000.00', '0.00', 2197, '2023-12-27 19:13:19'),
 (1310, '2695000.00', '0.00', '0.00', 2198, '2023-12-07 14:40:41'),
 (1311, '3995000.00', '0.00', '0.00', 2199, '2023-12-07 14:40:41'),
-(1312, '2100000.00', '0.00', '0.00', 2200, '2023-12-07 14:40:41'),
+(1312, '2100000.00', '1800000.00', '0.00', 2200, '2023-12-27 19:13:20'),
 (1313, '2750000.00', '0.00', '0.00', 2201, '2023-12-07 14:42:13'),
 (1314, '390000.00', '0.00', '0.00', 2202, '2023-12-07 14:42:13'),
-(1315, '895000.00', '0.00', '0.00', 2203, '2023-12-13 11:14:02'),
-(1316, '2250000.00', '0.00', '0.00', 2204, '2023-12-13 11:14:02'),
+(1315, '895000.00', '950000.00', '0.00', 2203, '2023-12-21 17:01:44'),
+(1316, '2250000.00', '2250000.00', '0.00', 2204, '2023-12-15 11:10:11'),
 (1317, '7700000.00', '0.00', '0.00', 2205, '2023-12-13 11:14:02'),
 (1318, '3300000.00', '0.00', '0.00', 2206, '2023-12-13 11:14:02'),
-(1319, '1650000.00', '0.00', '0.00', 2207, '2023-12-13 11:14:02');
+(1319, '1650000.00', '0.00', '0.00', 2207, '2023-12-13 11:14:02'),
+(1320, '2275000.00', '2600000.00', '0.00', 2208, '2023-12-27 19:13:19'),
+(1321, '3295000.00', '0.00', '0.00', 2209, '2023-12-15 11:10:11'),
+(1322, '2995000.00', '0.00', '0.00', 2210, '2023-12-15 11:10:11'),
+(1323, '1795000.00', '0.00', '0.00', 2211, '2023-12-15 11:10:11'),
+(1324, '3500000.00', '3650000.00', '0.00', 2212, '2023-12-27 19:13:19'),
+(1325, '2495000.00', '0.00', '0.00', 2213, '2023-12-21 17:01:44'),
+(1326, '600000.00', '0.00', '0.00', 2214, '2023-12-21 17:01:44');
 
 -- --------------------------------------------------------
 
@@ -1302,7 +1344,14 @@ INSERT INTO `properties` (`idproperties`, `website`, `yearbuild`, `insideM2`, `o
 (2204, 'Betri', 1952, 272, 1000, 5, 3, 1855, 2012, '2023-12-13'),
 (2205, 'Skyn: Nyggj ogn', 0, 316, 171, 5, 3, 1856, 2013, '2023-12-13'),
 (2206, 'Skyn: Nyggj ogn', 1965, 173, 964, 3, 2, 1857, 2014, '2023-12-13'),
-(2207, 'Skyn: Nyggj ogn', 1930, 120, 383, 3, 3, 1834, 2015, '2023-12-13');
+(2207, 'Skyn: Nyggj ogn', 1930, 120, 383, 3, 3, 1834, 2015, '2023-12-13'),
+(2208, 'Betri', 1957, 183, 397, 4, 3, 1858, 2016, '2023-12-15'),
+(2209, 'Betri', 2014, 96, 117, 2, 2, 1859, 2017, '2023-12-15'),
+(2210, 'Betri', 1964, 87, 429, 3, 1, 1860, 2018, '2023-12-15'),
+(2211, 'Betri', 1937, 180, 372, 2, 2, 1861, 2019, '2023-12-15'),
+(2212, 'Betri', 1998, 159, 247, 3, 3, 1862, 2020, '2023-12-21'),
+(2213, 'Betri', 1970, 231, 848, 3, 3, 1863, 2021, '2023-12-21'),
+(2214, 'Skyn: Nyggj ogn', 0, 0, 1097, 0, 0, 1864, 2022, '2023-12-21');
 
 -- --------------------------------------------------------
 
@@ -1324,6 +1373,7 @@ CREATE TABLE `view_properties` (
 ,`cityPostNum` varchar(45)
 ,`suggestPrice` decimal(45,2)
 ,`latestBidPrice` decimal(45,2)
+,`createdDate` date
 ,`lastUpdate` datetime
 ,`soldPrice` decimal(45,2)
 );
@@ -1335,7 +1385,7 @@ CREATE TABLE `view_properties` (
 --
 DROP TABLE IF EXISTS `view_properties`;
 
-CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_properties`  AS SELECT `p`.`idproperties` AS `idproperties`, `p`.`website` AS `website`, `p`.`yearbuild` AS `yearbuild`, `p`.`insideM2` AS `insideM2`, `p`.`outsideM2` AS `outsideM2`, `p`.`rooms` AS `rooms`, `p`.`floorLevels` AS `floorLevels`, `a`.`addressName` AS `addressName`, `h`.`house_num` AS `house_Num`, `c`.`cityName` AS `cityName`, `c`.`cityPostNum` AS `cityPostNum`, `s`.`suggestPrice` AS `suggestPrice`, `s`.`latestBidPrice` AS `latestBidPrice`, `s`.`lastUpdate` AS `lastUpdate`, `s`.`soldPrice` AS `soldPrice` FROM ((((`properties` `p` join `address` `a` on(`p`.`address_idaddress` = `a`.`idaddress`)) join `house_num` `h` on(`p`.`houseNum_idhouse_num` = `h`.`idhouse_num`)) join `cities` `c` on(`a`.`cities_idCity` = `c`.`idCity`)) join `price_of_properties` `s` on(`p`.`idproperties` = `s`.`properties_idproperties`)) ;
+CREATE ALGORITHM=UNDEFINED DEFINER=`root`@`localhost` SQL SECURITY DEFINER VIEW `view_properties`  AS SELECT `p`.`idproperties` AS `idproperties`, `p`.`website` AS `website`, `p`.`yearbuild` AS `yearbuild`, `p`.`insideM2` AS `insideM2`, `p`.`outsideM2` AS `outsideM2`, `p`.`rooms` AS `rooms`, `p`.`floorLevels` AS `floorLevels`, `a`.`addressName` AS `addressName`, `h`.`house_num` AS `house_Num`, `c`.`cityName` AS `cityName`, `c`.`cityPostNum` AS `cityPostNum`, `s`.`suggestPrice` AS `suggestPrice`, `s`.`latestBidPrice` AS `latestBidPrice`, `p`.`createdDate` AS `createdDate`, `s`.`lastUpdate` AS `lastUpdate`, `s`.`soldPrice` AS `soldPrice` FROM ((((`properties` `p` join `address` `a` on(`p`.`address_idaddress` = `a`.`idaddress`)) join `house_num` `h` on(`p`.`houseNum_idhouse_num` = `h`.`idhouse_num`)) join `cities` `c` on(`a`.`cities_idCity` = `c`.`idCity`)) join `price_of_properties` `s` on(`p`.`idproperties` = `s`.`properties_idproperties`)) ;
 
 --
 -- Indexes for dumped tables
@@ -1399,7 +1449,7 @@ ALTER TABLE `properties`
 -- AUTO_INCREMENT for table `address`
 --
 ALTER TABLE `address`
-  MODIFY `idaddress` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1858;
+  MODIFY `idaddress` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1865;
 
 --
 -- AUTO_INCREMENT for table `cities`
@@ -1411,31 +1461,31 @@ ALTER TABLE `cities`
 -- AUTO_INCREMENT for table `house_num`
 --
 ALTER TABLE `house_num`
-  MODIFY `idhouse_num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2016;
+  MODIFY `idhouse_num` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2023;
 
 --
 -- AUTO_INCREMENT for table `img_to_properties`
 --
 ALTER TABLE `img_to_properties`
-  MODIFY `idimg_to_properties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102168;
+  MODIFY `idimg_to_properties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=102175;
 
 --
 -- AUTO_INCREMENT for table `price_bids`
 --
 ALTER TABLE `price_bids`
-  MODIFY `idpriceBids` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
+  MODIFY `idpriceBids` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=81;
 
 --
 -- AUTO_INCREMENT for table `price_of_properties`
 --
 ALTER TABLE `price_of_properties`
-  MODIFY `idpriceOfProperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1320;
+  MODIFY `idpriceOfProperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1327;
 
 --
 -- AUTO_INCREMENT for table `properties`
 --
 ALTER TABLE `properties`
-  MODIFY `idproperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2208;
+  MODIFY `idproperties` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2215;
 
 --
 -- Constraints for dumped tables
