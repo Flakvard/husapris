@@ -1,0 +1,70 @@
+website,address,houseNr,postnum,city,suggest_price,latest_price,priceOfferDueDate,yearbuilt,insidem2,outsidem2,roomqty,floorlevels,img_urls
+Betri,Ærgisbrekka ,1,600 ,Saltangará,2700000,,,2003,200,616,3,2,https://betriheim.cdn.fo/savn/gjmj3zio/20.jpg?width=400&height=233&rmode=max&quality=50&s=ZKbmpJsZhf9SxDR5VTcJsET-9sg
+Betri,Djóna í Geil gøta ,42,100 ,Tórshavn,1775000,2100000,2024-03-07 13:00:00,1980,80,529,3,2,https://betriheim.cdn.fo/savn/4irj4wri/31.jpg?width=400&height=233&rmode=max&quality=50&s=5eOp-_dCyJmn4cvxrfQi_WJZVgk
+Betri,Út á Bakka ,6,450 ,Oyri,1495000,,,1912,206,422,7,3,https://betriheim.cdn.fo/savn/yg5nxrnc/b-24.jpg?width=400&height=233&rmode=max&quality=50&s=6whBDtPwyveIEcgnKRhiiiaQ7cs
+Betri,Áarrás ,1,160 ,Argir,3695000,,,1988,164,423,4,2,https://betriheim.cdn.fo/savn/ih4pstgo/35.jpg?width=400&height=233&rmode=max&quality=50&s=ykPyElRmNXR33OBAHnG-5hzDIJI
+Betri,Hornavegur ,4,450 ,Oyri,345000,,,,,987,,,https://betriheim.cdn.fo/savn/eszoh2hs/a-6.jpg?width=400&height=233&rmode=max&quality=50&s=PyhAeCv8r792rDxThb3FN1wmjjQ
+Betri,Ennivegur ,66,530 ,Fuglafjørður,1395000,,,1952,132,305,3,3,https://betriheim.cdn.fo/savn/n1bj4vyc/15.jpg?width=400&height=233&rmode=max&quality=50&s=XetCpHhbBy43GPC2N7iAaSUlcY4
+Betri,Niðaragøta ,116,188 ,Hoyvík,3245000,,,1997,127,247,3,2,https://betriheim.cdn.fo/savn/ajhcaqaf/f-2.jpg?width=400&height=233&rmode=max&quality=50&s=XWdrbKY9l7oO-dIUUFQc3MbulSM
+Betri,Undir Fossum ,55,700 ,Klaksvík,2995000,,,1979,259,560,8,2,https://betriheim.cdn.fo/savn/olqezm2d/f.jpg?width=400&height=233&rmode=max&quality=50&s=6au-MW9ghIZFynHc9BMcaRH-wos
+Betri,Geytagøta ,10,512 ,Norðragøta,3295000,,,1986,301,519,5,2,https://betriheim.cdn.fo/savn/vdkde1uz/40.jpg?width=400&height=233&rmode=max&quality=50&s=OdYjE7MY8URdtIt7-_zz9TbOy4I
+Betri,Gróvargøta ,2,513 ,Syðrugøta,2100000,1750000,2024-02-02 14:00:00,1912,127,250,3,3,https://betriheim.cdn.fo/savn/dftd41sl/21.jpg?width=400&height=233&rmode=max&quality=50&s=NvC9Fgltfn8y-_v5atLQ0rb-GnU
+Betri,Mikkjalsgøta ,16,370 ,Miðvágur,395000,,,,,644,,,https://betriheim.cdn.fo/savn/5vznrxg3/9.jpg?width=400&height=233&rmode=max&quality=50&s=YVFQsGkandkJO82Eg-r_rDRWf14
+Betri,Skálavegur ,58,480 ,Skála,395000,,,,,2210,,,https://betriheim.cdn.fo/savn/ta0nfb0d/06.jpg?width=400&height=233&rmode=max&quality=50&s=6Oy9KJfYJZI5t8yTOviFuX5Vrpw
+Betri,Raðhús í Brekkugerði ,21,420 ,Hósvík,998000,,,2024,82,,2,1,https://betriheim.cdn.fo/savn/qqtkgntq/09.jpg?width=400&height=233&rmode=max&quality=50&s=mImtSyWIYtbg9A5BYPbpQUpN5HM
+Betri,Dýrindalsgøta ,37,188 ,Hoyvík,3295000,,,2014,96,117,2,2,https://betriheim.cdn.fo/savn/fjmlneje/16.jpg?width=400&height=233&rmode=max&quality=50&s=33RBSyMCHRwoH3kEuuNKTLj3wGQ
+Betri,Bøgøta ,3A,100 ,Tórshavn,3195000,,,1908,101,83,2,3,https://betriheim.cdn.fo/savn/txfffr1f/31.jpg?width=400&height=233&rmode=max&quality=50&s=7MRJM1q3y8vkHIPUI_Mwd6kJ_Hw
+Betri,við Ánna ,12,512 ,Norðragøta,3995000,,,2003,419,738,,2,https://betriheim.cdn.fo/savn/lskiltfo/06.jpg?width=400&height=233&rmode=max&quality=50&s=TrpHIsl9dfpL9wnYlJSOe9C6DuU
+Betri,í Heygnum ,138,826 ,Trongisvágur,350000,,,,,750,,,https://betriheim.cdn.fo/savn/01do3k2i/06.jpg?width=400&height=233&rmode=max&quality=50&s=kNlhpkDS9i0oBAFM1w_F3zXnMuk
+Betri,Varðagøta ,49,100 ,Tórshavn,3495000,,,1977,123,524,2,1,https://betriheim.cdn.fo/savn/vmfdo1zh/f-6.jpg?width=400&height=233&rmode=max&quality=50&s=cFK8bFjm8tcVkCjpdkzbGh0rFYw
+Skyn,Maritugøta ,21,,Hoyvík,3995000,,,2004,123,137,3,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Hoyvik/maritugota_21/01.forsidumynd.PNG&Width=360&Height=248&Crop=6
+Skyn,Lýðarsvegur ,34,,Toftir,500000,,,,,703,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/lydarsvegur_34_toftir/01.JPEG&Width=360&Height=248&Crop=6
+Skyn,Gerðagøta ,4,,Klaksvík,1995000,,,,,520,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordoyggjar/gerdagota_4_klaksvik/01.JPEG&Width=360&Height=248&Crop=6
+Skyn,Torkilskrókur ,5,,Fuglafjørður,3125000,2700000,,1982,286,551,7,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/Torkilskrókur _5_Fuglafjørður/01.JPG&Width=360&Height=248&Crop=6
+Skyn,Geilin ,2,,Lambi,2900000,,,2020,233,628,2,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/Geilin_2_Lamba/01.JPG&Width=360&Height=248&Crop=6
+Skyn,Toftavegur ,31,,Vágur,1195000,,,,219,493,4,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/Toftavegur_31_Vágur/01.jpg&Width=360&Height=248&Crop=6
+Skyn,Matr. nr. ,263b,,Strendur,600000,,,,,1097,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/matr.nr.263b_strendur/01.jpg&Width=360&Height=248&Crop=6
+Skyn,Magnus Heinasonar gøta ,15,,Tórshavn,7700000,,,,316,171,5,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/magnus_heinasonar_gota_15/01_1.JPG&Width=360&Height=248&Crop=6
+Skyn,Leynarvegur ,7,,Leynar,3300000,,,1965,173,964,3,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordstreymoy/leynarvegur_7_leynar/01a.PNG&Width=360&Height=248&Crop=6
+Skyn,Heiðatrøðin ,24,,Tvøroyri,390000,,,,,575,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/heidatrodin_24_tvoroyri/01.jpg&Width=360&Height=248&Crop=6
+Skyn,Høganesvegur ,26,,Toftir,300000,180000,,,,625,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/hoganesvegur_26_toftir/01v.JPG&Width=360&Height=248&Crop=6
+Skyn,Lyngvegur ,9,,Norðskáli,2800000,,,2016,181,700,4,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/lyngvegur_9_nordskali/01v.JPG&Width=360&Height=248&Crop=6
+Skyn,Klaksvíksvegur ,59,,Klaksvík,850000,,,,,757,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordoyggjar/klaksviksvegur_59_klaksvik/01.JPEG&Width=360&Height=248&Crop=6
+Skyn,Heiðavegur ,26,,Saltangará,9000000,,,1951,672,539,,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/heidavegur_26_saltangara/01.JPG&Width=360&Height=248&Crop=6
+Skyn,Meinhartstrøð ,9,,Tórshavn,2000000,,,,,617,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/Meinhartstrød_9_Tórshavn/IMG_4053.JPG&Width=360&Height=248&Crop=6
+Skyn,Lýðarsvegur ,48B,,Toftir,2000000,,,2021,127,341,,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/lydarsvegur_48b_toftir/01.JPEG&Width=360&Height=248&Crop=6
+Skyn,í Homrum ,25,,Kollafjørður,1395000,,,1910,193,450,,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordstreymoy/i_homrum_25_kollafjordur/02v.jpg&Width=360&Height=248&Crop=6
+Skyn,Niels Finsens gøta ,23A,,Tórshavn,7495000,,,,332,179,,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/Niels_Finsens_gota_23A_nyta_hetta/01v.jpg&Width=360&Height=248&Crop=6
+Skyn,Niðari Vegur ,78,,Skipanes,3600000,,,2022,132,13693,3,1,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/nidari_vegur_78_skipanes/01.jpg&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,58a,,Oyrarbakki,450000,,,,,4792,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/matrnr_58a_oyri/01.JPG&Width=360&Height=248&Crop=6
+Skyn,Hagabrekka ,28,,Skálavík,1995000,,,1980,272,500,3,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sandoy-og-Skuvoy/hagabrekka_28_skalavik/01.JPG&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,208p,,Miðvágur,500000,,,,,21129,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Vagar/matrnr_208p_midvagur/01.JPG&Width=360&Height=248&Crop=6
+Skyn,Ovastuhjallar ,9,,Sandavágur,375000,250000,,,,1508,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Vagar/ovastuhjallar_9_sandavagur/01.JPG&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,1350a,,Tórshavn,5400000,,,,,7583,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/matrnr1350a/01.jpg&Width=360&Height=248&Crop=6
+Skyn,Salvarávegur ,9,,Syðrugøta,1800000,,,,,622,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/salvaravegur_9/01_1.JPG&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,31,,Ørðavík,300000,,,,,5776,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/matr_31_ordavik/01.jpg&Width=360&Height=248&Crop=6
+Skyn,matr. ,144i,,Klaksvík,400000,,,,,569,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordoyggjar/matr_144i_Klaksvik/Myndir/01.jpg&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,159d,,Nólsoy,600000,,,,,709,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nolsoy-og-Hestoy/Valagøta_13_grundøki_Nolsoy/01-2.jpg&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,21f,,Leynar,390000,300000,,,,912,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordstreymoy/matrnr.21f_leynar/IMG_1011.JPG&Width=360&Height=248&Crop=6
+Skyn,matr.nr. ,240a,,Skála,3595000,,,,,6213,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/matr.nr.240a_240g_skala/kopi 3.jpg&Width=360&Height=248&Crop=6
+Skyn,Traðagøta ,37,,Klaksvík,400000,,,,,498,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordoyggjar/Tradagota_37_Klaksvik_/1.JPG&Width=360&Height=248&Crop=6
+Skyn,Ólavsvegur ,6,,Toftir,350000,,,,,688,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/Olavsvegur_6_toftir/10.JPEG&Width=360&Height=248&Crop=6
+Skyn,Jørð til grundøkir omanfyri Múlaklett,,,Eiði,3000000,,,,,27000,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/matr_434a_eidi/03.JPG&Width=360&Height=248&Crop=6
+Skyn: Selt,Undir Nesinum ,5,,Toftir,2795000,,,1986,162,696,5,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Eysturoy/undir_nesinum_5_toftir/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Selt,Húsanesvegur ,39,,Miðvágur,2675000,,,1985,256,795,5,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Vagar/husanesvegur_39_midvagur/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Selt,Lágabø ,15,,Vágur,1200000,,,1930,179,230,2,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/Lagabo_15_Vagur/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Selt,við Krossá ,6,,Kaldbak,330000,,,,,,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Kaldbak/vid_krossa_6/01v.jpg&Width=360&Height=248&Crop=6
+Skyn: Selt,Karlamagnusarbreyt ,8B,,Hoyvík,3195000,,,2023,112,,3,1,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Hoyvik/karlamagnusarbreyt_8b_1.4/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Selt,Landavegur ,61,,Tórshavn,3500000,,,1936,172,815,4,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/landavegur_61/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj bod,Í Húsgarði ,18,,Trongisvágur,1995000,1700000,2024-03-07 16:00:00,1972,342,969,4,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/i_husgardi_18_trongisvagur/01_.jpg&Width=360&Height=248&Crop=6
+Skyn: Nyggj bod,í Trøðum ,16A,,Sandur,2800000,2800000,2024-03-07 15:00:00,2022,176,766,4,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sandoy-og-Skuvoy/i_trodum_16a_sandur/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,við Myllutjørn ,55,,Hoyvík,4000000,,,2018,173,213,4,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Hoyvik/vid_myllutjorn_55/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,Gerðisgøta ,18,,Miðvágur,3650000,,,2008,306,735,6,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Vagar/gerdisgota_18_midvagur/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,Andrasargøta ,11,,Hoyvík,4295000,,,2001,182,500,6,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Hoyvik/andrasargota_11/01_still.jpg&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,á Mýratrøðni ,3,,Sørvágur,2795000,2300000,,1988,277,979,6,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Vagar/a_myratrodni_3_sorvagur/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,Niðari vegur ,30,,Vestmanna,1650000,,,1962,132,164,3,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordstreymoy/Nidari_vegur_30/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,við Klingurstjørn ,52A,,Argir,2750000,,,1990,165,401,2,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Argir/vid_klingurstjorn_52a/01_.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,Oman Reyðhús ,4,,Klaksvík,2600000,,,,336,929,,3,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Nordoyggjar/Oman_reydhus_4_og_6/01.JPG&Width=360&Height=248&Crop=6
+Skyn: Nyggj ogn,Landavegur ,94A,,Tórshavn,1800000,,,2022,32,,1,1,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/Landavegur_94A_0_5_Torshavn/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Nytt bod,Ryskigøta ,41,,Tórshavn,1600000,,,,,403,,,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Sudurstreymoy/Torshavn/Ryskigota_41/01.jpg&Width=360&Height=248&Crop=6
+Skyn: Nytt bod,Ovari Vegur ,25,,Tvøroyri,900000,,,1955,174,445,5,2,https://www.skyn.fo/admin/public/getimage.ashx?&Image=/Files/Images/Ognir/Suduroy/ovari_vegur_25_tvoroyri/01_v.jpg&Width=360&Height=248&Crop=6
