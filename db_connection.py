@@ -115,5 +115,5 @@ def test():
 
 property_list = []
 # property_list = fp.FaroesProperties.readInCSV("../csv_db/2023-10-05_export_data.csv")
-property_list = fp.FaroesProperties.readInCSV("./csv_db/2024-03-24_export_data.csv")
+property_list = fp.FaroesProperties.readInCSV("./csv_db/2024-04-01_export_data.csv")
 insertPropsToDB(property_list)
